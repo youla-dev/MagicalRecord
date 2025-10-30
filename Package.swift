@@ -11,8 +11,8 @@ let package = Package(
         .target(
             name: "MagicalRecord",
             path: "MagicalRecord",
-            publicHeadersPath: ".",
             sources: ["."],
+            publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("Categories"),
                 .headerSearchPath("Core")
