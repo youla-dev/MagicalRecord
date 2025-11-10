@@ -7,9 +7,9 @@
 //
 
 #import "MagicalRecord+Setup.h"
-#import "NSManagedObject+MagicalRecord.h"
+#import "../Categories/NSManagedObject/NSManagedObject+MagicalRecord.h"
 #import "NSPersistentStoreCoordinator+MagicalRecord.h"
-#import "NSManagedObjectContext+MagicalRecord.h"
+#import "../Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"
 
 @implementation MagicalRecord (Setup)
 

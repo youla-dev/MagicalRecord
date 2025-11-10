@@ -5,16 +5,16 @@
 //  Copyright 2011 Magical Panda Software LLC. All rights reserved.
 //
 
-#import "NSObject+MagicalDataImport.h"
-#import "NSAttributeDescription+MagicalDataImport.h"
-#import "NSEntityDescription+MagicalDataImport.h"
-#import "NSManagedObjectContext+MagicalThreading.h"
+#import "../DataImport/NSObject+MagicalDataImport.h"
+#import "../DataImport/NSAttributeDescription+MagicalDataImport.h"
+#import "../DataImport/NSEntityDescription+MagicalDataImport.h"
+#import "../DataImport/NSRelationshipDescription+MagicalDataImport.h"
+#import "../DataImport/NSString+MagicalDataImport.h"
+#import "../DataImport/MagicalImportFunctions.h"
+#import "../NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"
 #import "NSManagedObject+MagicalDataImport.h"
 #import "NSManagedObject+MagicalFinders.h"
 #import "NSManagedObject+MagicalRecord.h"
-#import "NSRelationshipDescription+MagicalDataImport.h"
-#import "NSString+MagicalDataImport.h"
-#import "MagicalImportFunctions.h"
 #import "MagicalRecordLogging.h"
 #import <objc/runtime.h>
 

@@ -7,8 +7,8 @@
 //
 
 #import "NSEntityDescription+MagicalDataImport.h"
-#import "NSManagedObject+MagicalDataImport.h"
-#import "NSManagedObject+MagicalRecord.h"
+#import "../NSManagedObject/NSManagedObject+MagicalDataImport.h"
+#import "../NSManagedObject/NSManagedObject+MagicalRecord.h"
 #import "MagicalImportFunctions.h"
 #import "MagicalRecordLogging.h"
 

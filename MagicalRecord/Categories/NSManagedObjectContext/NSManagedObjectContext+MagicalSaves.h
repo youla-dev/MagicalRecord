@@ -7,8 +7,8 @@
 //
 
 #import <CoreData/CoreData.h>
-#import <MagicalRecord/MagicalRecordDeprecationMacros.h>
-#import <MagicalRecord/MagicalRecordXcode7CompatibilityMacros.h>
+#import "../../Core/MagicalRecordDeprecationMacros.h"
+#import "../../Core/MagicalRecordXcode7CompatibilityMacros.h"
 
 typedef NS_OPTIONS(NSUInteger, MRSaveOptions) {
     /** No options — used for cleanliness only */

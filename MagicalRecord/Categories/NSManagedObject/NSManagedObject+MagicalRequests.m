@@ -8,7 +8,7 @@
 
 #import "NSManagedObject+MagicalRequests.h"
 #import "NSManagedObject+MagicalRecord.h"
-#import "NSManagedObjectContext+MagicalThreading.h"
+#import "../NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"
 
 @implementation NSManagedObject (MagicalRequests)
 

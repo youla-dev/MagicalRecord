@@ -10,7 +10,7 @@
 #if TARGET_OS_OSX || TARGET_OS_IOS
 #import "MagicalRecord+iCloud.h"
 #import "NSPersistentStoreCoordinator+MagicalRecord.h"
-#import "NSManagedObjectContext+MagicalRecord.h"
+#import "../Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"
 
 static BOOL _iCloudEnabled = NO;
 

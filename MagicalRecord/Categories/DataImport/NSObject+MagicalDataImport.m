@@ -9,7 +9,7 @@
 #import "NSObject+MagicalDataImport.h"
 #import "NSAttributeDescription+MagicalDataImport.h"
 #import "NSEntityDescription+MagicalDataImport.h"
-#import "NSManagedObject+MagicalDataImport.h"
+#import "../NSManagedObject/NSManagedObject+MagicalDataImport.h"
 #import "NSRelationshipDescription+MagicalDataImport.h"
 #import "MagicalRecordLogging.h"
 

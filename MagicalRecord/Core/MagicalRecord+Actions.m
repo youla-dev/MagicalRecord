@@ -6,8 +6,8 @@
 //
 
 #import "MagicalRecord+Actions.h"
-#import "NSManagedObjectContext+MagicalRecord.h"
-#import "NSManagedObjectContext+MagicalThreading.h"
+#import "../Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"
+#import "../Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"
 
 @implementation MagicalRecord (Actions)
 

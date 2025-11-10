@@ -6,7 +6,7 @@
 //
 
 #import <CoreData/CoreData.h>
-#import <MagicalRecord/MagicalRecordXcode7CompatibilityMacros.h>
+#import "../Core/MagicalRecordXcode7CompatibilityMacros.h"
 
 @interface NSManagedObjectModel (MagicalRecord)
 

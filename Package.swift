@@ -11,13 +11,20 @@ let package = Package(
         .target(
             name: "MagicalRecord",
             path: "MagicalRecord",
-            sources: ["."],
+            sources: [
+                "Core",
+                "Categories"
+            ],
             publicHeadersPath: ".",
             cSettings: [
+                .headerSearchPath("."),
+                .headerSearchPath("Core"),
                 .headerSearchPath("Categories"),
-                .headerSearchPath("Core")
+                .headerSearchPath("Categories/DataImport"),
+                .headerSearchPath("Categories/NSManagedObject"),
+                .headerSearchPath("Categories/NSManagedObjectContext"),
+                .headerSearchPath("include")
             ]
         )
-        // Tests can be wired later if needed
     ]
 )

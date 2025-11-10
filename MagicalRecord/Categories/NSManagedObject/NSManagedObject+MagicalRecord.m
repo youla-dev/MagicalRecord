@@ -5,7 +5,7 @@
 
 #import "NSManagedObject+MagicalRecord.h"
 #import "NSManagedObject+MagicalRequests.h"
-#import "NSManagedObjectContext+MagicalThreading.h"
+#import "../NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"
 #import "MagicalRecord+ErrorHandling.h"
 #import "MagicalRecordLogging.h"
 
